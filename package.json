@@ -1,0 +1,38 @@
+{
+  "name": "mountainkings",
+  "version": "1.0.0",
+  "description": "Web Application for mountainkings.kz",
+  "main": "app.js",
+  "scripts": {
+    "test": "env NODE_ENV=test mocha --recursive --exit",
+    "json:server": "json-server --watch './db/db.json'",
+    "dev": "nodemon app.js --ignore 'test'"
+  },
+  "keywords": [
+    "PWA",
+    "Mountain",
+    "Kings"
+  ],
+  "author": "Kaisar Kuanysh <kaisarkarashauly@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi-date": "^2.0.1",
+    "bcrypt": "^4.0.1",
+    "chai": "^4.2.0",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-promise-router": "^3.0.3",
+    "joi": "^14.3.1",
+    "json-server": "^0.16.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^7.1.2",
+    "mockgoose": "^8.0.4",
+    "mongoose": "^5.9.12",
+    "morgan": "^1.10.0",
+    "supertest": "^4.0.2",
+    "uuid": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "PORT": 5000,
+  "MONGO_URL": "mongodb://localhost:27017/mountainkings",
+  "SECRET": "ndiuh8372nhd2jd2ndn3o29j2dd23[d][]2d]32hdui2d",
+  "ACCESS_TOKEN_EXP": "15m"
+}
